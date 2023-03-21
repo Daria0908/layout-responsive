@@ -1,0 +1,49 @@
+body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: center;
+}
+
+.header {
+    background-color: grey;
+    grid-column: 1/4;
+}
+
+.main {
+    background-color: peachpuff;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main_part {
+    margin: 1vw;
+}
+
+.different_part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.different_part div {
+    background-color: peru;
+    margin: 1vw;
+}
+
+.long_text {
+    grid-column: 1/3;
+}
+
+.sidebar {
+    background-color: green;
+}
+
+.footer {
+    background-color: gray;
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer section {
+    background-color: white;
+    margin: 1vw;
+}
